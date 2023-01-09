@@ -9,6 +9,7 @@
 
 /* Utilities */
 :root {
+  --very-light-grey: #e5e7eb;
   --light-grey: #9ca3af;
   --medium-grey: #6b7280;
   --dark-grey: #1f2937;
@@ -17,6 +18,11 @@
   --white: #fff;
   --blue: #3730a3;
   --line-ht: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
 }
 
 .container {
@@ -85,5 +91,115 @@
   width: 102px;
   border-bottom: 10px solid var(--blue);
   height: 1px;
+  color: var(--blue);
+}
+
+#hero .hero-author span {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--blue);
+  line-height: 28px;
+}
+
+#hero .hero-main-heading {
+  margin-top: 40px;
+}
+
+#hero .hero-main-heading p {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: var(--dark-grey);
+}
+
+#hero .hero-main-para {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--medium-grey);
+}
+
+#hero .hero-cta-btn {
+  margin-top: 40px;
+}
+
+#hero .hero-cta-btn button {
+  margin-right: 20px;
+}
+
+#hero hr {
+  margin-top: 20px;
+  background-color: var(--very-light-grey);
+  border: 1px solid #e5e7eb;
+}
+
+#hero .hero-subtext {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--medium-grey);
+}
+
+/* Services */
+
+main section {
+  padding-top: 198px;
+}
+
+#headline {
+  padding: 0 80px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--dark-grey);
+}
+
+#headline span {
+  color: var(--blue);
+}
+
+#services {
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#services .services-list {
+  padding: 45px;
+}
+
+#services .services-list ul {
+  list-style: none;
+}
+
+#services .services-list ul li:nth-child(2),
+#services .services-list ul li:nth-child(3) {
+  margin-top: 68px;
+}
+
+#services .services-list ul li .services-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--dark-grey);
+}
+
+#services .services-list ul li .services-body {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--medium-grey);
+}
+
+#services .services-list ul li .services-btn {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
   color: var(--blue);
 }
