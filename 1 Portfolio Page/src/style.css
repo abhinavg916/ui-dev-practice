@@ -203,3 +203,49 @@ main section {
   line-height: 16px;
   color: var(--blue);
 }
+
+#services .services-list ul li .services-btn::after {
+  content: "->";
+}
+
+/* Trusted By */
+
+#trusted-by {
+  background-color: var(--bg-skin);
+  margin-top: 150px;
+  padding: 100px 128px;
+}
+
+#trusted-by p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--medium-grey);
+}
+
+#trusted-by div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Projects */
+
+#projects .head {
+  padding: 150px 83px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+#projects .project-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#projects .project-gallery #first {
+}
